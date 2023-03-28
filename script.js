@@ -21,11 +21,11 @@ function foo(data1){
         <div class="card border-primary mb-3" style="max-width: 18rem;">
         <div class="card-body text-secondary">
         <h5 class="card-title">${data1[i].name}</h5>
-          <p class="card-text"> =>Brewery type : ${data1[i].brewery_type}</p>
-          <p class="card-text" style="text-align:center">=>Address : ${data1[i].address_1}</p>
-          <p class="card-text" style="text-align:center">=>State : ${data1[i].state_province}</p>
-          <p class="card-text" style="text-align:center">=>Postal_code : ${data1[i].postal_code}</p>
-          <p class="card-text" style="text-align:center">=>country : ${data1[i].country}</p>
+          <p class="card-text"> Brewery type : ${data1[i].brewery_type}</p>
+          <p class="card-text" style="text-align:center">Address : ${data1[i].address_1}</p>
+          <p class="card-text" style="text-align:center">State : ${data1[i].state_province}</p>
+          <p class="card-text" style="text-align:center">Postal_code : ${data1[i].postal_code}</p>
+          <p class="card-text" style="text-align:center">country : ${data1[i].country}</p>
           <a href=${data1[i].website_url} class="btn btn-primary">click to 🍺</a>
           <p class="card-text">Phone no:${data1[i].phone}</p>
         </div>
